@@ -18,7 +18,7 @@ export default function Admin() {
   //Hàm thêm mới user
   const handleAdd = () => {
     let newUser = {
-      name: "Đăng Thái",
+      name: "Au Tuan",
       age: 19,
     };
     dispatch(addUser(newUser));
@@ -33,7 +33,7 @@ export default function Admin() {
   const handleUpdateUser = (user: User) => {
     let updatedUser = {
       ...user,
-      name: "Đăng Thái Updated",
+      name: "Au Tuan Updated",
       age: 20,
     };
     dispatch(updateUser(updatedUser));
@@ -47,15 +47,15 @@ export default function Admin() {
             <li>{user.name}</li>
             <li>{user.age}</li>
             <li>
-              <button onClick={() => handleDeleteUser(user.id)}>delete</button>
+              <button onClick={() => handleDeleteUser(user.id)}>Xóa</button>
             </li>
             <li>
-              <button onClick={() => handleUpdateUser(user)}>update</button>
+              <button onClick={() => handleUpdateUser(user)}>Cập nhật</button>
             </li>
           </ul>
         ))}
       </div>
-      <button onClick={handleAdd}>Add User</button>
+      <button onClick={handleAdd}>Thêm User</button>
     </div>
   );
 }
