@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Thế Minh",
+      "age": 19
+    },
+    {
+      "id": 2,
+      "name": "Minh Sâm",
+      "age": 18
+    },
+    {
+      "requestId": "B2LaXCMewt_Qky74dNd3H",
+      "signal": {},
+      "id": 5,
+      "name": "Đăng Thái Updated",
+      "age": 20
+    }
+  ]
+}
